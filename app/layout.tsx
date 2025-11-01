@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
-      <body>
+      <body suppressHydrationWarning>
         <SmoothScroll>
           {children}
         </SmoothScroll>
