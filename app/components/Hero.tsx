@@ -58,7 +58,7 @@ export default function Hero() {
     });
 
     const moon = new THREE.Mesh(geometry, material);
-    moon.scale.set(0.5, 0.5, 0.5); // Zaczynamy od małego
+    moon.scale.set(0.05, 0.05, 0.05); // Zaczynamy od małego
     scene.add(moon);
 
     function animate() {
@@ -85,9 +85,9 @@ export default function Hero() {
 
     // Skala - od 0.5 do 3 (6x większy!)
     timeline.to(moon.scale, {
-      x: 3,
-      y: 3,
-      z: 3,
+      x: 1,
+      y: 1,
+      z: 1,
       ease: "none",
     }, 0); // 0 = równocześnie z rotacją
 
@@ -122,7 +122,7 @@ export default function Hero() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <div 
               ref={containerRef}
-              className="w-full h-full"
+              className="w-auto h-auto border-red-500 border"
             />
           </div>
 
