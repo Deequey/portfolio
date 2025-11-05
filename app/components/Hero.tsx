@@ -109,15 +109,15 @@ export default function Hero() {
       scrollTrigger: {
         trigger: document.body,
         start: "top top",
-        end: "30% bottom",
+        end: "60% bottom",
         scrub: true,
       }
     })
       .to(moon.scale, {
-        x: 1,
-        y: 1, //to prawdopodobnie bedzie do zmiany
-        z: 1,
-        ease: "power2.out",
+        x: 0.8,
+        y: 0.8, //to prawdopodobnie bedzie do zmiany
+        z: 0.8,
+        ease: "power1.out",
       });
 
     //przesuwanie w lewo
@@ -159,7 +159,7 @@ export default function Hero() {
     gsap.timeline({
       scrollTrigger: {
         trigger: document.body,
-        start: "38% top",
+        start: "35% top",
         end: "55% top",
         scrub: true,
       }
@@ -262,7 +262,7 @@ export default function Hero() {
       </section>
 
       <div className="relative z-10 pointer-events-none">
-        <div className="h-[500vh]"></div>
+        <div className="h-[350vh]"></div>
       </div>
     </>
   );
