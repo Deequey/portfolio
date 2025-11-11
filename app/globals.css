@@ -5,6 +5,11 @@
   --foreground: #171717;
 }
 
+::selection, ::-moz-selection {
+  background-color: white;
+  color: black;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

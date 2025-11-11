@@ -60,7 +60,7 @@ export default function LoadingScreen() {
         <div className="w-64 md:w-96 mx-auto">
           <div className="h-1 bg-secondary rounded-full overflow-hidden">
             <div 
-              className="h-full bg-gradient-to-r from-purple-400 to-blue-400 transition-all duration-500"
+              className="h-full bg-linear-to-r from-purple-400 to-blue-400 transition-all duration-500"
               style={{ width: `${progress}%` }}
             />
           </div>

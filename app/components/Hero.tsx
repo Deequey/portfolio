@@ -238,7 +238,7 @@ export default function Hero() {
               DEEQUEY
             </h2>
 
-            <h3 className="font-display font-bold text-5xl mb-4 text-blue-400">
+            <h3 className="font-display font-bold text-5xl mb-4 text-transparent bg-clip-text bg-linear-to-r from-[#FFFFFF] via-[#FF5A00] to-[#FF5A00]">
               Web Developer
             </h3>
 
@@ -246,7 +246,7 @@ export default function Hero() {
               Pozwól się
             </p>
 
-            <p className="font-display text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
+            <p className="font-display text-3xl font-bold text-transparent bg-clip-text bg-linear-to-r from-purple-400 via-purple-500 to-blue-400">
               zaskoczyć
             </p>
 
